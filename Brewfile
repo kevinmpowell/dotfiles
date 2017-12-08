@@ -1,4 +1,7 @@
+brew 'curl'
 brew 'node'
+brew 'zsh'
+brew 'zsh-completions'
 
 cask '1password'
 cask 'firefox'
