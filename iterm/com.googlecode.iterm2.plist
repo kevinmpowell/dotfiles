@@ -493,7 +493,7 @@
 	<key>NSWindow Frame iTerm Window 3</key>
 	<string>1029 649 890 602 0 0 2560 1417 </string>
 	<key>NSWindow Frame iTerm Window 4</key>
-	<string>405 52 890 602 0 0 2560 1417 </string>
+	<string>192 27 890 602 0 0 1680 1027 </string>
 	<key>NSWindow Frame iTerm Window 5</key>
 	<string>0 333 1680 694 0 0 1680 1027 </string>
 	<key>NSWindow Frame iTerm Window 6</key>
@@ -1043,7 +1043,7 @@
 			<key>Mouse Reporting</key>
 			<true/>
 			<key>Name</key>
-			<string>Default</string>
+			<string>Kevin's iTerm</string>
 			<key>Non Ascii Font</key>
 			<string>InconsolataForPowerline 18</string>
 			<key>Non-ASCII Anti Aliased</key>
@@ -1238,6 +1238,10 @@
 	<string>B362A734-7A2E-460E-81A5-9FABB64D1CBE</string>
 	<key>NoSyncLastTipTime</key>
 	<real>523460530.46729302</real>
+	<key>NoSyncNeverRemindPrefsChangesLostForFile</key>
+	<true/>
+	<key>NoSyncNeverRemindPrefsChangesLostForFile_selection</key>
+	<integer>0</integer>
 	<key>NoSyncPermissionToShowTip</key>
 	<true/>
 	<key>NoSyncTimeOfFirstLaunchOfVersionWithTip</key>
