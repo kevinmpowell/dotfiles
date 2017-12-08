@@ -173,5 +173,8 @@ cd "$(dirname $0)"/..
 echo "› brew bundle"
 brew bundle
 
+# Switch to ZSH
+chsh -s $(which zsh)
+
 # Install Oh My ZSH
 sh -c "../zsh/install.install.oh-my-zsh.sh"
