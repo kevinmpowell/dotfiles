@@ -22,3 +22,6 @@
 ### iTerm2 Settings Powerline Font
 Under the Text tab change the font for each type (Regular and Non-ASCII) to 'Inconsolata for Powerline'.
 Refresh ZSH by typing source ~/.zshrc on the command line.
+
+## Install Slate
+`cd /Applications && curl http://www.ninjamonkeysoftware.com/slate/versions/slate-latest.tar.gz | tar -xz`
