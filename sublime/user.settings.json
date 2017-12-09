@@ -1,0 +1,46 @@
+{
+    "auto_complete_triggers":
+    [
+        {
+            "characters": "<",
+            "selector": "text.html"
+        },
+        {
+            "characters": "/",
+            "selector": "string.quoted.double.html,string.quoted.single.html, source.css"
+        }
+    ],
+    "binary_file_patterns":
+    [
+        "*.scssc",
+        "dist/**/*.html",
+        "dist/**/*.scss",
+        "dist/**/*.css",
+        "dist/**/*.js"
+    ],
+    "bold_folder_labels": true,
+    "caret_extra_bottom": 2,
+    "caret_extra_top": 2,
+    "caret_extra_width": 3,
+    "caret_style": "phase",
+    "color_scheme": "Packages/Theme - Cobalt2/cobalt2.tmTheme",
+    "ensure_newline_at_eof_on_save": true,
+    "font_size": 13,
+    "highlight_line": true,
+    "highlight_modified_tabs": true,
+    "ignored_packages":
+    [
+        "Vintage"
+    ],
+    "indent_guide_options":
+    [
+        "draw_normal",
+        "draw_active"
+    ],
+    "line_padding_bottom": 1,
+    "line_padding_top": 1,
+    "theme": "Cobalt2.sublime-theme",
+    "tooltips": true,
+    "translate_tabs_to_spaces": true,
+    "wide_caret": true
+}
