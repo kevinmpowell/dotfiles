@@ -13,4 +13,4 @@
 * `sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"`
 
 ## Copy OMZ Theme
-* `cp ~/Sites/dotfiles/kevin.zsh-theme ~/.oh-my-zsh/themes/kevin.zsh-theme
+* `cp ~/Sites/dotfiles/kevin.zsh-theme ~/.oh-my-zsh/themes/kevin.zsh-theme`
