@@ -20,7 +20,7 @@
 * Browse and point to `~/Sites/dotfiles/iterm`
 
 ### iTerm2 Settings Powerline Font
-Under the Preferences/Profile Pane in the Text tab change the font for each type (Regular and Non-ASCII) to 'Inconsolata for Powerline'.
+Under the Preferences/Profile Pane in the Text tab change the font for each type (Non-ASCII Only) to 'Inconsolata for Powerline'.
 Refresh ZSH by typing source ~/.zshrc on the command line.
 
 ## Install Slate
