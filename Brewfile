@@ -1,12 +1,12 @@
 brew 'curl'
 brew 'node'
-brew 'powerline'
 brew 'zsh'
 brew 'zsh-completions'
 
 cask '1password'
 cask 'firefox'
 cask 'google-chrome'
+tap 'caskroom/fonts'
 cask 'font-inconsolata-for-powerline'
 cask 'iterm2'
 cask 'slack'

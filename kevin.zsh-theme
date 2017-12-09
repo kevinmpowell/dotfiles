@@ -1,6 +1,6 @@
 # vim:ft=zsh ts=2 sw=2 sts=2
 #
-# agnoster's Theme - https://gist.github.com/3712874
+# Kevin's Theme - using Agnoster as a starting point
 # A Powerline-inspired theme for ZSH
 #
 # # README
@@ -80,7 +80,7 @@ prompt_end() {
 # Context: user@hostname (who am I and where am I)
 prompt_context() {
   if [[ "$USER" != "$DEFAULT_USER" || -n "$SSH_CLIENT" ]]; then
-    prompt_segment black default "%(!.%{%F{yellow}%}.)$USER@%m"
+    prompt_segment black green "%(!.%{%F{yellow}%}.)♫"
   fi
 }
 
@@ -128,7 +128,6 @@ prompt_git() {
 }
 
 prompt_hg() {
-  (( $+commands[hg] )) || return
   local rev status
   if $(hg id >/dev/null 2>&1); then
     if $(hg prompt >/dev/null 2>&1); then
