@@ -4,10 +4,6 @@
 * `cd ~/Sites/dotfiles`
 * `script/install`
 
-## iTerm2 Settings
-* Go to Preferences/General
-* Check 'Load preferences from a custom folder or URL:'
-* Browse and point to `~/Sites/dotfiles/iterm`
 
 ## Install Oh-My-ZSH
 * `sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"`
@@ -18,3 +14,11 @@
 ## Copy OMZ Theme
 * `cp ~/Sites/dotfiles/kevin.zsh-theme ~/.oh-my-zsh/themes/kevin.zsh-theme`
 
+## iTerm2 Settings
+* Go to Preferences/General
+* Check 'Load preferences from a custom folder or URL:'
+* Browse and point to `~/Sites/dotfiles/iterm`
+
+### iTerm2 Settings Powerline Font
+Under the Text tab change the font for each type (Regular and Non-ASCII) to 'Inconsolata for Powerline'.
+Refresh ZSH by typing source ~/.zshrc on the command line.
