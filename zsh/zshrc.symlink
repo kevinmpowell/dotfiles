@@ -22,3 +22,8 @@ if command -v brew >/dev/null 2>&1; then
 fi
 
 source $ZSH/oh-my-zsh.sh
+
+alias gc='ruby /Users/eightshapeskevin/Dropbox\ \(Personal\)/Shell\ Scripts/pre-commit-checklist.rb'
+alias gcufb='/Users/eightshapeskevin/Dropbox\ \(Personal\)/Shell\ Scripts/git_clean_up_feature_branch.sh'
+alias launch='open http://launch.eightshapes.com'
+alias mdsfetch='/Users/eightshapeskevin/.morningstar-repo-fetch.sh'
