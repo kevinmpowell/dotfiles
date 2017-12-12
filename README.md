@@ -23,5 +23,8 @@
 Under the Preferences/Profile Pane in the Text tab change the font for each type (Non-ASCII Only) to 'Inconsolata for Powerline'.
 Refresh ZSH by typing source ~/.zshrc on the command line.
 
+## Refresh shell
+`cd ~/ && source .zshrc`
+
 ## Install Slate
 `cd /Applications && curl http://www.ninjamonkeysoftware.com/slate/versions/slate-latest.tar.gz | tar -xz`
