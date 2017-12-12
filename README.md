@@ -18,6 +18,7 @@
 * Go to Preferences/General
 * Check 'Load preferences from a custom folder or URL:'
 * Browse and point to `~/Sites/dotfiles/iterm`
+* DO NOT allow it to copy current settings to that file
 
 ### iTerm2 Settings Powerline Font
 Under the Preferences/Profile Pane in the Text tab change the font for each type (Non-ASCII Only) to 'Inconsolata for Powerline'.
