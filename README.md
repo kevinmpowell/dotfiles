@@ -30,5 +30,5 @@ Refresh ZSH by typing source ~/.zshrc on the command line.
 ## Install Slate
 `cd /Applications && curl http://www.ninjamonkeysoftware.com/slate/versions/slate-latest.tar.gz | tar -xz`
 
-## Install Cobalt2 Theme
-[https://github.com/wesbos/cobalt2](https://github.com/wesbos/cobalt2)
+## Configure emmet plugin for Atom
+In Atom's emmet Settings, set the Extensions path to: `~/.emmet` which will find the symlinked directory from these dotfiles
