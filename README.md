@@ -32,3 +32,14 @@ Refresh ZSH by typing source ~/.zshrc on the command line.
 
 ## Configure emmet plugin for Atom
 In Atom's emmet Settings, set the Extensions path to: `~/.emmet` which will find the symlinked directory from these dotfiles
+
+## Remove beeping noise in Atom for command ctrl + down (moving text down a line)
+create the following file at ``~/Library/KeyBindings/DefaultKeyBinding.dict` (or add these entries to the existing file):
+
+```
+{
+    "^@\UF701" = "noop:";
+    "^@\UF702" = "noop:";
+    "^@\UF703" = "noop:";
+}
+```
